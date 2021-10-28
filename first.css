@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+.header,.footer
+{
+   position:fixed;
+   background-color: blue;
+   margin:auto;
+   color:white;
+   font-family: sans-serif;
+   font-size:large;
+   text-align: center;
+   padding:10px;
+   width:70%; 
+  
+}
+.header
+{
+    height: 200px;  
+    top:0;
+}
+.footer
+{
+    bottom:0;
+    height: 50px;  
+
+}
+.content
+{
+    position:fixed;
+    top: 200px;
+    left: 208px;
+    right: 200px;
+    width: 70%;
+    margin:auto;    
+    background-color: white;
+    color:blue;
+    height:600px;
+    padding:10px;    
+    border-left:2px solid;
+    border-right:2px solid;
+}
+
+body{
+    padding-left:200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-collapse: separate;   
+}
+.username-label
+{
+    position: relative;
+    top: 30px;
+    left:100px;
+    padding: 10px;
+    font-size: 20px;
+}
+.password-label{
+    position: relative;
+    top: 60px;
+    left: 100px;
+    padding: 10px;
+    font-size: 20px;
+}
+#submit-button
+{
+    position: relative;
+    top: 90px;
+    left:270px;
+    background-color: blue;
+    color: white;
+    font-style:normal;
+    font-family: sans-serif;
+    font-size: large;
+    height: 30px;
+    width:80px;
+}
+#input-box1{
+    position: relative;
+    left: 150px;
+    top: 30px;
+    font-family: sans-serif;
+    font-size: large;
+    height: 30px;
+    width: 200px;
+    border-color: blue;
+    color:blue;
+}
+#input-box2{
+    position: relative;
+    left: 155px;
+    top: 60px;
+    color: blue;
+    font-size: large;
+    height: 30px;
+    width: 200px;
+    border-color: blue;
+
+}
